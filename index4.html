@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Design Your Day Your Way</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	
+	<!--My API Key & Google Maps Syntax-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARYPWAsE5IFiwasKMUTf-HbBGOpo3UWik&callback=myMap"></script>
+
+<!--My Favicon Icon Link-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+	  background-color: lightblue;
+  }
+	  
+	  
+	  
+	  
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: black;
+      font-weight: 400;
+   
+  }  
+  .jumbotron {
+      background-color: lightblue;
+      color: black;
+      padding: 100px;
+      font-family: Montserrat, sans-serif;
+	  height: 150px;
+  }
+	  
+	  .jumbotron h1{
+		  font-size: 45px;
+	  }
+	  
+	  .jumbotron h3{
+		   text-align: center;
+		      font-size: 50px;
+      line-height: 1.375em;
+       color: #818181;
+      font-weight: 400;
+      margin-bottom: 30px;
+	  }
+	  
+	
+	   /*my logo*/
+	   .navbar img{
+		  height: 200px;
+		  margin-top: -95px;
+		  margin-left: 0px;
+		  position: relative;
+		 
+	  }  
+	  
+	   
+	 
+	  .games{
+		  margin-top: 130px;
+		  margin-left: 150px;
+		
+	  }
+	  
+	  .games h1{
+		  font-size: 38px;
+	  }
+
+	  .textarea {
+    background-color: lightgrey;
+    width: 550px;
+   height: 160px;
+    border: 9px solid black;
+		  padding: 8px;
+    margin-top: -1540px;
+	margin-left: 830px;
+}
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: beige;
+  }
+  .logo-small {
+      color: mediumpurple;
+      font-size: 50px;
+  }
+  .logo {
+      color: mediumpurple;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: purple;
+  }
+  .carousel-indicators li {
+      border-color: mediumpurple;
+  }
+  .carousel-indicators li.active {
+      background-color: mediumpurple;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+	  
+	  
+
+	  
+	  
+	  
+	  
+	  
+	  
+  .navbar {
+	   max-width: 1520px; margin: 0 auto; 
+      margin-bottom: 0;
+      background-color: slateblue;
+      z-index: 9999;
+      border: 0;
+      font-size: 16px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+	  height: 100px;
+	  padding: 30px 10px 10px 10px;
+  }
+	  
+	  .navbar img{
+		  height: 400px;
+		  margin-top: -160px;
+		  margin-left: -320px;
+		  position: relative;
+		 
+	  } 
+
+  .navbar li a, .navbar .navbar-brand{
+      color: black !important;
+	
+	  
+  }
+  .navbar li a, .navbar .navbar-brand img{
+      color: black !important;
+	  
+  }	  
+	  
+	  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: black!important;
+      background-color: white !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: white !important;
+  }
+	  
+	   
+	   /*my logo*/
+	   .navbar img{
+		  height: 200px;
+		  margin-top: -95px;
+		  margin-left: 0px;
+		  position: relative;
+		 
+	  }  
+/*wavy text1*/
+	  .story {
+		  font-weight: 500;
+			width: 550px;
+		  float: right;
+		  margin-top: -1950px;
+		  margin-right: 220px;
+		}
+	  
+
+	  
+	 /*textarea*/
+	  .star3{
+		  background-color: lightblue;
+		  width: 550px;
+		  height: 310px;
+			color: black;
+		  font-weight: 500;
+		  font-size: 18px;
+		  padding: 8px;
+	  	  float: right;
+		  margin-top: -2320px;
+		  margin-right: 220px;
+		 
+	  }
+	  
+	  .star3 h3{
+		  color: #818181;
+		  font-size: 38px;;
+		  text-align: center;
+	  }
+	  
+	  .star3 p{
+		  text-align: center;
+			font-size: 20px;
+	  }
+	  
+	  .star4{
+	  	  	float: right;
+		  margin-top: -1230px;
+		  margin-right: 350px;
+		 
+	  }
+	  
+	  .star5{
+		  float: right;
+		  margin-top: -240px;
+		  margin-right: 350px;
+	  }
+	  
+	  
+	  .story h1{
+		  font-size: 38px;
+		  text-align: center;
+		  color: #818181;
+		  margin-right: 30px;
+	  }
+	  
+	  .story2 h1{
+		    font-size: 27px;
+		  text-align: center;
+		  color: black;
+	  }
+	  
+	
+	 /*start2*/
+	  .star2{
+		   height: 500px;
+		  float: right;
+		  margin-top: -1100px;
+		  margin-right: 100px;
+	  }
+
+
+	  
+	  
+	  
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: mediumpurple;
+  }
+	  
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+	  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+	  
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+	  
+	  
+	  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+	  
+  </style>
+	
+	
+</head>
+	
+	
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+		
+		<div class="navbar-brand">
+		<img src="img/logofyp1.svg"/>
+     </div>
+		
+    </div>
+	  
+	
+
+
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+	
+ 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index2.html">HEALTH</a></li>
+        <li><a href="index3.html">ORGANISER</a></li>
+        <li><a href="index4.html">STARS</a></li>
+        <li><a href="index5.html">GAMES</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+	
+	
+	<body>
+<div class="jumbotron text-center">
+  <h3>Design Your Day Your Way - Star Gazing</h3>
+	<h4>MINDFULNESS | ASTRONOMY | IT | SCIENCE | ART | PHILOSOPHY | SPACE | TIME</h4>
+<h4>Enjoy Mindfulness Star-Gazing with this Interactive Astronomy Page !</h4>
+		</div>
+
+		<div class="games">
+	<!--Lyrids meteor shower-->
+			
+		<h1> Lyrids meteor shower</h1>	
+	<embed src="https://www.meteorshowers.org#iau-7" width="500" height="500" frameBorder="0"/>
+	
+	<br>
+
+	<!--earth history-->
+			<h1> Earth, 600 million years ago</h1>
+	<embed src="http://dinosaurpictures.org/ancient-earth/" width="500" height="500" frameBorder="0"/> 
+	
+		
+	<br>
+	<!--Asterank game-->
+			<h1> NASA's Exoplanets</h1>
+	<embed src="http://www.asterank.com/exoplanets" width="500" height="500" frameBorder="0"/>
+																								<!--next-->	
+	<br>
+			<h1>Click to view Pluto</h1>
+	<embed src="http://www.ianww.com/ceres" width="500" height="500" frameBorder="0"/>
+	
+		</div>
+	
+		
+		
+	
+		<!--text box is a div called star3-->
+		 <div class="star3">
+		
+		<h3>Mindfulness & Interactive Astronomy</h3>
+			 <p>Philosophy is closely linked with Astronomy. Mindfulness has its origins in Philosophy and the practice of being 'mindful' has been practised for approximately 2,500 years.</p>
+<p>For each of these astronomy areas, in this interactive page, you can zoom in, zoom out, use the mouse, use arrow keys to explore the earth and stars from earliest historic times.</p>
+		</div>
+
+		
+		
+		
+<!--wavy story in a div called story-->
+			
+	<div class="story">
+		<h1>Once Upon a Time...</h1>
+		<!--this creates the wave effect-->
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 420 1400" >
+    <defs>
+        <path d="M10,10  q50,25 100,0 t100,0 100,0 100,0" id="wave"/>
+    </defs>
+   
+		
+    <rect width="100%" height="100%" fill="lightblue" />
+    <g font-size="16px"
+       font-family="Lato, sans serif" 
+       fill="black"
+	   font-weight="200">
+<text transform="translate(0,25)"><textPath xlink:href="#wave" startOffset="0%">.....“today, the time has come,” the Guru said,</textPath></text>
+<text transform="translate(0,50)"><textPath xlink:href="#wave" startOffset="5%">“To talk of many things: </textPath></text>
+<text transform="translate(0,75)"><textPath xlink:href="#wave" startOffset="0%">Of life-the stars-and mind-soul spirit-body-</textPath></text>
+<text transform="translate(0,100)"><textPath xlink:href="#wave" startOffset="5%">In the beginning-We navigated our lives-integrated</textPath></text>
+<text transform="translate(0,125)"><textPath xlink:href="#wave" startOffset="0%">One with the world-then our understanding changed-  </textPath></text>
+<text transform="translate(0,150)"><textPath xlink:href="#wave" startOffset="5%">-We began to separate things out to understand them-</textPath></text>
+
+<text transform="translate(0,175)"><textPath xlink:href="#wave" startOffset="25%">-Which is a way that always existed-</textPath></text>
+<text transform="translate(0,200)"><textPath xlink:href="#wave" startOffset="30%">But, somewhere, somehow, along the</textPath></text>
+<text transform="translate(0,225)"><textPath xlink:href="#wave" startOffset="25%">-Way, we forgot about the relationships-</textPath></text>
+<text transform="translate(0,250)"><textPath xlink:href="#wave" startOffset="30%"> -Betweeen them."</textPath></text>
+<text transform="translate(0,275)"><textPath xlink:href="#wave" startOffset="25%">“But wait a bit!” said the Student.</textPath></text>
+<text transform="translate(0,300)"><textPath xlink:href="#wave" startOffset="30%">Are they all not the same thing?"</textPath></text>
+
+<text transform="translate(0,325)"><textPath xlink:href="#wave" startOffset="0%">“The Guru asked, what does Mindfulness mean to you?"  </textPath></text>
+<text transform="translate(0,350)"><textPath xlink:href="#wave" startOffset="5%">“I think of Awareness, of my Reality, Health, Life-  </textPath></text>
+<text transform="translate(0,375)"><textPath xlink:href="#wave" startOffset="0%">-Popular conversation," said the Student besides-</textPath></text>
+<text transform="translate(0,400)"><textPath xlink:href="#wave" startOffset="5%">Guru replied "Yes, indeed-though I did not understand-</textPath></text>
+<text transform="translate(0,425)"><textPath xlink:href="#wave" startOffset="0%">-It your way. My generation saw the body & mind-</textPath></text>
+<text transform="translate(0,450)"><textPath xlink:href="#wave" startOffset="5%">-As separate entities."</textPath></text>
+
+<text transform="translate(0,475)"><textPath xlink:href="#wave" startOffset="25%">“The Student replied, "but what about</textPath></text>
+<text transform="translate(0,500)"><textPath xlink:href="#wave" startOffset="30%"> Mindfulness? "That's whats in the news-</textPath></text>
+<text transform="translate(0,525)"><textPath xlink:href="#wave" startOffset="25%">We're learning in school-Everyone's </textPath></text>
+<text transform="translate(0,550)"><textPath xlink:href="#wave" startOffset="30%">-Talking about it. It makes  sense-</textPath></text>
+<text transform="translate(0,575)"><textPath xlink:href="#wave" startOffset="25%">Its the norm.</textPath></text>
+<text transform="translate(0,600)"><textPath xlink:href="#wave" startOffset="30%">How come you did not see it that way?"</textPath></text>
+
+		
+<text transform="translate(0,625)"><textPath xlink:href="#wave" startOffset="0%">-The Student asked the Guru. </textPath></text>
+<text transform="translate(0,650)"><textPath xlink:href="#wave" startOffset="5%">"I discovered through my life dedication to the secrets-</textPath></text>	
+<text transform="translate(0,675)"><textPath xlink:href="#wave" startOffset="0%">-Or essence of our 'Being,' the Nature of Mindfulness-</textPath></text>
+<text transform="translate(0,700)"><textPath xlink:href="#wave" startOffset="5%">The elements or separates in life and how they work- </textPath></text>
+<text transform="translate(0,725)"><textPath xlink:href="#wave" startOffset="0%">-Together, as a whole and integrated System." said the- </textPath></text>
+<text transform="translate(0,750)"><textPath xlink:href="#wave" startOffset="5%">Guru, as they continued the conversation."</textPath></text>
+		
+<text transform="translate(0,775)"><textPath xlink:href="#wave" startOffset="25%">“The Student replied, "I couldn't imagine a</textPath></text>
+<text transform="translate(0,800)"><textPath xlink:href="#wave" startOffset="30%">World with that Viewpoint -its like-</textPath></text>
+<text transform="translate(0,825)"><textPath xlink:href="#wave" startOffset="25%">Another World entirely."</textPath></text>
+<text transform="translate(0,850)"><textPath xlink:href="#wave" startOffset="30%">"Indeed," said the Guru, quite a Culture</textPath></text>
+<text transform="translate(0,875)"><textPath xlink:href="#wave" startOffset="25%"> Change.</textPath></text>
+<text transform="translate(0,900)"><textPath xlink:href="#wave" startOffset="30%"> "Mindfulness has its origins in-</textPath></text>		
+		
+<text transform="translate(0,925)"><textPath xlink:href="#wave" startOffset="0%">Buddhism - a practice in exisence for the last 2,500 years.</textPath></text>
+<text transform="translate(0,950)"><textPath xlink:href="#wave" startOffset="5%">It was introduced to the West by Jon Kabat-Zin and-</textPath></text>	
+<text transform="translate(0,975)"><textPath xlink:href="#wave" startOffset="0%">Collegues at the University of Massachusetts Medical-</textPath></text>
+<text transform="translate(0,1000)"><textPath xlink:href="#wave" startOffset="5%">School Hospital, USA.Their objective was to improve-  </textPath></text>
+<text transform="translate(0,1025)"><textPath xlink:href="#wave" startOffset="0%">the overall health, of patients with chronic diseases-  </textPath></text>
+<text transform="translate(0,1050)"><textPath xlink:href="#wave" startOffset="5%">through a synergistic model, that considers the -</textPath></text>		
+		
+		
+<text transform="translate(0,1075)"><textPath xlink:href="#wave" startOffset="25%">Relationships between mind and body.</textPath></text>
+<text transform="translate(0,1100)"><textPath xlink:href="#wave" startOffset="30%">The concept was about how we relate-</textPath></text>
+<text transform="translate(0,1125)"><textPath xlink:href="#wave" startOffset="25%">-To our problems, rather than the problems-</textPath></text>
+<text transform="translate(0,1150)"><textPath xlink:href="#wave" startOffset="30%">-Themselves-</textPath></text>
+<text transform="translate(0,1175)"><textPath xlink:href="#wave" startOffset="25%">-From this point there has been-</textPath></text>		
+<text transform="translate(0,1200)"><textPath xlink:href="#wave" startOffset="30%">developments in the integration of the-</textPath></text>	
+	
+<text transform="translate(0,1225)"><textPath xlink:href="#wave" startOffset="0%">-Medical and the Every-day Society Living.</textPath></text>
+<text transform="translate(0,1250)"><textPath xlink:href="#wave" startOffset="5%">In your generation, particularly  in the recent 15 years-</textPath></text>	
+<text transform="translate(0,1275)"><textPath xlink:href="#wave" startOffset="0%">This integration has become understood and known  as -</textPath></text>
+<text transform="translate(0,1300)"><textPath xlink:href="#wave" startOffset="5%">Mindfulness, and yes it is now the norm."</textPath></text>
+<text transform="translate(0,1325)"><textPath xlink:href="#wave" startOffset="0%">And the Student said wisely, "if you change the way you- </textPath></text>
+<text transform="translate(0,1350)"><textPath xlink:href="#wave" startOffset="5%">look at things, the things you look at change..."
+				
+
+    </g>
+</svg>
+	</div>
+	
+		
+	
+		<br>
+		
+
+	
+	
+		-->
+
+		
+</body>
+</html>
+	

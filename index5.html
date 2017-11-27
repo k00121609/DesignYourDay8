@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Design Your Day Your Way</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	
+	<!--My API Key & Google Maps Syntax-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARYPWAsE5IFiwasKMUTf-HbBGOpo3UWik&callback=myMap"></script>
+
+<!--My Favicon Icon Link-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+	  background-color: lightblue;
+  }
+	  
+	  .games{
+		  margin-left: 350px;
+	  }
+	
+	  .text{
+		  margin-left: 170px;
+		  margin-top: -1680px;
+		  font-size: 39px;
+		  font-weight:800;
+		  color: mediumpurple;
+	  }
+	  
+	  	   /*my logo*/
+	   .navbar img{
+		  height: 200px;
+		  margin-top: -95px;
+		  margin-left: 0px;
+		  position: relative;
+		 
+	  }  
+	  
+	  
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 70px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: black;
+      font-weight: 400;
+  }  
+  .jumbotron {
+      background-color: lightblue;
+      color: black;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+	  height: 150px;
+  }
+	  
+	  .jumbotron h1{
+		  font-size: 45px;
+	  }
+	  
+	  .jumbotron h3{
+		   text-align: center;
+		      font-size: 50px;
+      line-height: 1.375em;
+       color: #818181;
+      font-weight: 400;
+      margin-bottom: 30px;
+	  }
+	  
+	  
+	  	   /*my logo*/
+	   .navbar img{
+		  height: 200px;
+		  margin-top: -95px;
+		  margin-left: 0px;
+		  position: relative;
+		 
+	  }  
+	  
+	  /*star gif
+	  .star10{
+		  width: 100px;
+	  }*/
+	  
+	   /*star gif*/
+	
+	  
+	  .star12 img{
+		 width: 200px;
+		  height: 1620px;
+		  margin-top: -1640px;
+		  margin-left: 80px;
+		
+	  }
+	  
+	 
+	   .games{
+		  margin-top: 120px;
+		  
+	  }
+	  
+
+	  .textarea {
+    background-color: lightgrey;
+    width: 550px;
+   height: 280px;
+    border: 7px solid black;
+		  padding: 15px;
+    margin-top: -1570px;
+	margin-left: 830px;
+		 
+}
+	  
+
+	  .textarea h2{
+		  font-size: 32px;
+	  }
+	  
+	    .textarea h5{
+		  font-size: 21px;
+		   color: black;
+			text-align: center;
+	  }
+	   .textarea p{
+		  font-size: 18px;
+		   font-weight: 200;
+		   color: black;
+	  }
+	  
+	.textarea2{
+    background-color: lightgrey;
+  width: 550px;
+   height: 280px;
+    border: 7px solid black;
+	padding: 15px;
+    margin: 25px;
+	margin-left: 830px;
+		  margin-top: 120px;
+}
+	  
+	   .textarea2 h2{
+		   font-size: 32px;
+	  }
+	  
+	    .textarea2 h5{
+			  font-size: 21px;
+		   color: black;
+			text-align: center;
+	  }
+	   .textarea2 p{
+		  font-size: 18px;
+		   font-weight: 200;
+		   color: black;
+	  }
+	  
+	  
+
+	 	.textarea3{
+    background-color: lightgrey;
+	width: 550px;
+    height: 310px;
+    border: 7px solid black;
+	padding: 15px;
+    margin: 25px;
+	margin-left: 830px;
+			 margin-top: 120px;
+} 
+	  
+	   .textarea3 h2{
+		  font-size: 32px;
+	  }
+	  
+	    .textarea3 h5{
+		 	  font-size: 21px;
+		   color: black;
+			text-align: center;
+	  }
+	   .textarea3 p{
+		   font-size: 18px;
+		   font-weight: 200;
+		   color: black;
+	  }
+	  
+	  
+	
+	  
+	  	.textarea4{
+    background-color: lightgrey;
+    width: 550px;
+   height: 340px;
+    border: 7px solid black;
+		  padding: 15px;
+    margin: 25px;
+	margin-left: 830px;
+			 margin-top: 70px;
+}
+	  
+	  
+	   .textarea4 h2{
+		   font-size: 32px;
+	  }
+	  
+	    .textarea4 h5{
+		 	  font-size: 21px;
+		   color: black;
+			text-align: center;
+	  }
+	   .textarea4 p{
+		   font-size: 18px;
+		   font-weight: 200;
+		   color: black;
+	  }
+	  
+	  
+	  
+	  
+	  
+	 
+	  
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: beige;
+  }
+  .logo-small {
+      color: mediumpurple;
+      font-size: 50px;
+  }
+  .logo {
+      color: mediumpurple;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: purple;
+  }
+  .carousel-indicators li {
+      border-color: mediumpurple;
+  }
+  .carousel-indicators li.active {
+      background-color: mediumpurple;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+	  
+	  
+	  
+
+	  
+	  
+	  
+	  
+  .navbar {
+	   max-width: 1520px; margin: 0 auto; 
+      margin-bottom: 0;
+      background-color: mediumpurple;
+      z-index: 9999;
+      border: 0;
+      font-size: 16px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+	  height: 100px;
+	  padding: 30px 10px 10px 10px;
+  }
+	  
+	 
+	  
+	  navbar img{
+		  height: 200px;
+		  margin-top: -95px;
+		  margin-left: 0px;
+		  position: relative;
+		 
+	  }  
+	  
+
+  .navbar li a, .navbar .navbar-brand{
+      color: black !important;
+	
+	  
+  }
+  .navbar li a, .navbar .navbar-brand img{
+      color: black !important;
+	  
+  }	  
+	  
+	  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: black!important;
+      background-color: white !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: white !important;
+  }
+	  
+	 
+
+	  
+	  
+	  
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: mediumpurple;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+	  
+	  
+	  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+	  
+  </style>
+	
+	
+</head>
+	
+	
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+		
+		<div class="navbar-brand">
+		<img src="img/logofyp1.svg"/>
+     </div>
+		
+			
+    </div>
+	  
+	
+
+
+	  
+    <div class="collapse navbar-collapse" id="myNavbar">
+	
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index2.html">HEALTH</a></li>
+        <li><a href="index3.html">ORGANISER</a></li>
+        <li><a href="index4.html">STARS</a></li>
+        <li><a href="index5.html">GAMES</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+	
+	
+	<body>
+<div class="jumbotron text-center">
+  <h3>Design Your Day Your Way - IT Games</h3>
+	<h4>GAMES | CONCENTRATION | MIINDFULNESS | ACTIVITY | FOCUS </h4>
+<h4>| <a href="index6.html">ABOUT</a> | TIC-TAC-TOE | N-blox | Pacman | Simon Says |</h4>
+		</div>
+
+	
+		
+	<div class="games">
+<embed src="http://www.myspacegens.com/games/tictactoe.swf" menu="false" quality="high" width="400" height="400" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
+	<br>
+
+	<embed src="http://www.myspacegens.com/games/tetris.swf" menu="false" quality="high" width="400" height="400" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	
+	<br>
+	
+	<embed src="http://www.myspacegens.com/games/pacman.swf" menu="false" quality="high" width="400" height="400" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	
+	<br>
+	
+	<embed src="http://www.myspacegens.com/games/simonsays.swf" menu="false" quality="high" width="400" height="400" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	
+	<br>
+
+</div>
+	
+		<!--Text areas-->
+		   <div class="textarea">
+			<h5><strong>- TIC-TAC-TOE Tooltips -</strong></h5>
+<p>This game is otherwise know as 'X & O's.' It is usually played as a 'paper and pencil' game for two players. The players take turns marking spaces in a '3 x 3 grid.' Use the mouse to click on the space you wish to mark. The player who succeeds in placing 3 of their marks, in a horizontal, vertical or diagonal row wins the game.</p>
+		</div>
+
+			
+		<div class="textarea2">
+			<h5><strong>- N-Blox Tooltips -</strong></h5>
+<p>This is a single player game for 'you' the player. Use the 'arrow keys' to orientate and place the blocks. Press the 'space' key for fast-drop. The level increases every 10 lines. There are options of: play, high scores, quit. When you click 'play' there are options to play at different levels. Levels are from 1-10, where 10 is the highest level.</p>
+		</div>
+	
+		
+			<div class="textarea3">
+			<h5><strong>- PACMAN Tooltips -</strong></h5>
+<p>In this game 'you' the 'player' controls Pac-Man through a maze, eating pac-dots. When all the pac-dots are eaten, the game goes to the next level. There are 4 enemies that roam the maze, trying to catch your Pac-Man, which you must avoid. If you eat a power-pill, you can eat the ghosts! Eating a fruit when it appears gives you a bonue score. The controls are the: arrow keys, 'p' for pause/unpause, 'q' for quit game, 'm' for mute/unmute.</p>
+			</div>	
+				
+	<div class="textarea4">
+			<h5><strong>- Simon Says Tooltips -</strong></h5>
+<p>This game has 4 coloured buttons, each producing a particular sound when it is pressed or activated by the device. Follow the pattern of the lights and sounds for as long as you can. A round in the game consists of the device lighting up one or more buttons in a random order. You the player must reproduce that order by pressing the buttons. If you succeed the series becomes progressively longer and more complex. If you miss a pattern the game is over.</p>
+		</div>
+		
+		<!--star11
+		<div class="star11"></div>
+		<a href="http://www.animatedimages.org/cat-stars-280.htm"><img src="http://www.animatedimages.org/data/media/280/animated-star-image-0074.gif" border="0" alt="animated-star-image-0074"/></a>
+		</div>
+	-->
+		
+	<div class="star12">
+	<img src="img/star11.gif">
+		</div>
+		
+		<!--star10
+		<div class="star10">
+			<img src="img/star10.gif" width=300px height=1500px>
+		
+		</div>
+-->		
+
+<div class="text">
+		<p><br>L<br>I<br>F<br>E<br><br>M<br>A<br>N<br>A<br>G<br>M<br>E<br>M<br>E<br>N<br>T<br><br>D<br>E<br>S<br>I<br>G<br>N<br></p>
+		
+		
+		</div>
+		
+</body>
+</html>

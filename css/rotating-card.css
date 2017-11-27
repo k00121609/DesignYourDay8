@@ -1,0 +1,931 @@
+
+
+body {
+	background-color:lightgrey;
+	margin-top: 80px;
+	font-size: .9em;
+	font-family:Verdana, sans-serif;
+	
+}
+
+.container{
+	max-width: 100%;
+	background-color:lightblue;
+	border: 5px solid darkblue;
+
+}
+
+.blue {
+	margin-top: -4px;
+	
+}
+
+.title {
+
+    text-align: center;
+    font-size: 4.4em;
+    margin: 0px 0px 60px 70px;
+   margin-top: -450px;
+	
+	
+}
+
+
+.title h1{
+	color: white;
+	font-size: 1.1em;
+	font-weight: 280;
+	 text-align: left;
+	margin-left: 30px;
+	width: 100%;
+}
+
+
+.title h2{
+	color: white;
+	font-size: .6em; 
+	font-weight: 400;
+    text-align: center;
+}
+
+.title h3{
+	color: white;
+	font-size: .5em; 
+	font-weight: 400;
+    text-align: center;
+}
+
+.time1{
+	margin-left: 870px;
+	color: lightblue;
+
+	
+}
+
+
+.soln{
+	margin-right: -690px;
+	font-size: 3em;
+	text-align: center;
+	
+}
+
+
+.bannerimg {
+	width: 100%;
+	margin: 30px 0px 0px 30px;
+}
+
+
+
+
+
+#rectangle{
+    width:100%;
+    height:120px;
+    background-color: darkblue;
+}
+
+
+#rectangle2{
+    width: 1170px;
+    height: 400px;
+    background-color: darkblue;
+	margin-left: -20px;
+	border: solid darkblue 2px;
+}
+
+#rectangle3{
+    width: 1130px;
+    height: 360px;
+    background-color: lightblue;
+	margin: -90px -30px 30px 20px;
+	border: solid white 15px;
+}
+
+
+#rectangle4{
+    width: 1130px;
+    height: 360px;
+    background-color: lightblue;
+	margin: -90px -30px 30px 20px;
+	border: solid white 15px;
+}
+
+#rectangle5{
+    width: 1130px;
+    height: 360px;
+    background-color: lightblue;
+	margin: -90px -30px 30px 20px;
+	border: solid white 15px;
+}
+
+
+#rectangle6{
+    width: 1130px;
+    height: 360px;
+    background-color: white;
+	margin: -90px -30px 30px 20px;
+	border: solid lightblue 15px;
+}
+
+#rectangle7{
+    width: 1130px;
+    height: 360px;
+    background-color: white;
+	margin: -90px -30px 30px 20px;
+	border: solid lightblue 15px;
+}
+
+
+#rectangle8{
+    width: 1163px;
+    height: 400px;
+    background-color: white;
+	margin-left: 0px;
+	border: solid darkblue 2px;
+}
+
+
+.carousel slide{
+	width:1000px;
+	height: 450px;
+
+}
+
+.item img{
+	width:1000px;
+	height: 450px;
+}
+}
+
+
+
+
+
+
+/*Section-BLOCK4*/
+.blockfour{
+	float:clear;
+}
+
+
+section.BLOCK4 { position: relative;}
+section.BLOCK4 aside { width: 33%; float: left;}
+section.BLOCK4 aside .content { padding: 30px 20px 30px 20px;}
+section.BLOCK4 aside .content img { display: block; width: 72%;}
+section.BLOCK4 aside .content h4 {color: black; font-weight: 700;}
+section.BLOCK4 aside .content a { display: inline-block; color: lightcoral; font-weight:700;}
+section.BLOCK4 aside .content p{ font-size: 1.7em;}
+
+
+
+
+
+
+
+
+
+ /*Navigation1*/
+
+nav {
+	margin-top: 300px;
+	font-size: 1.9em;
+    background-color: none;
+    position: relative;
+    top: -2540px; left: -155px;
+    padding: 50px 0 0 0;
+    width: 150%;
+	
+}
+
+nav::after { content:''; display: block; clear: both;}
+
+nav ul { list-style: none; margin: 0; padding: 0px; }
+
+nav ul li:hover { background-color: black}
+nav ul li:hover > ul { display: block;}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+
+nav ul li a:visited { color: white;}
+
+nav ul li a:hover { background-color: blue;}
+
+nav ul ul { position: absolute; top: 100%; background-color: black; display: none; }
+
+nav ul ul li { position: relative;}
+
+nav ul ul ul {left: 100%; top: 0px; }
+
+
+
+
+
+/*Navigation 2 top-level*/
+/* top-level */
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left;  }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px;}
+
+nav a[aria-haspopup="true"]::after {
+    content: '';
+    display: block; width: 0px; height: 0px;
+    position: absolute;
+    top: 16px; right: 15px; 
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+}
+
+nav > ul > li > a[aria-haspopup="true"]::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; right: auto;
+    bottom: 6px; top: auto;
+    
+}
+
+/* Footer */
+footer {font-size: .8em; margin: 7px 10px 10px 10px; padding: 10px 10px 10px 10px; color:lightgray; }
+
+
+
+
+
+.btn:hover,
+.btn:focus,
+.btn:active{
+    outline: 0 !important;
+}
+/* entire container, keeps perspective */
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+     -o-perspective: 800px;
+        perspective: 800px;
+        margin: 30px 30px 30px 30px;
+}
+/* flip the pane when hovered */
+.card-container:not(.manual-flip):hover .card,
+.card-container.hover.manual-flip .card{
+	-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+ -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+.card-container.static:hover .card,
+.card-container.static.hover .card {
+	-webkit-transform: none;
+-moz-transform: none;
+ -o-transform: none;
+    transform: none;
+}
+/* flip speed goes here */
+.card {
+	 -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+     -o-transition: -o-transform .5s;
+        transition: transform .5s;
+-webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+     -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+     -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+		-webkit-transform: rotateY( 180deg );
+   -moz-transform: rotateY( 180deg );
+     -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+        z-index: 3;
+}
+
+.back .btn-simple{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+/*        Style       */
+
+
+.card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 10px;
+    color: #444444;
+}
+.card-container, .front, .back {
+	width: 100%;
+	height: 420px;
+	border-radius: 4px;
+}
+.card .cover{
+    height: 105px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.card .cover img{
+    width: 100%;
+}
+.card .user{
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+
+.card .content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    padding: 10px 20px 20px;
+}
+.card .content .main {
+    min-height: 160px;
+}
+.card .back .content .main {
+    height: 215px;
+}
+.card .name {
+    font-size: 2.5em;
+  
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+  
+}
+.card h5{
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card .profession{
+    color: #999999;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.card .footer {
+    border-top: 1px solid #EEEEEE;
+    color: #999999;
+    margin: 30px 0 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+.card .footer .social-links{
+    font-size: 18px;
+}
+.card .footer .social-links a{
+    margin: 0 7px;
+}
+
+
+
+.card .footer .btn-simple{
+    margin-top: -6px;
+}
+
+
+
+.card .header {
+    padding: 15px 20px;
+    height: 90px;
+}
+.card .motto{
+    border-bottom: 1px solid #EEEEEE;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card .stats-container{
+	width: 100%;
+	margin-top: 50px;
+}
+.card .stats{
+	display: block;
+	float: left;
+	width: 33.333333%;
+	text-align: center;
+}
+
+.card .stats:first-child{
+	border-right: 1px solid #EEEEEE;
+}
+.card .stats:last-child{
+	border-left: 1px solid #EEEEEE;
+}
+.card .stats h4{
+	color: black;
+	font-weight: 270;
+	margin-bottom: 5px;
+}
+.card .stats p{
+	color: black;
+}
+
+
+
+
+
+                                        /*Media Queries*/
+
+
+        /*media query 1 at 1200px*/
+
+@media screen and  (max-width:1200px){
+   section.atmosphere .iframe{width: 1000px;} 
+
+
+        /*media query 2 at 980px*/
+	
+	header a.LOGO {font-size: 4em; height: 36px;}
+	
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left; }
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    section.BLOCK3_1 aside article .art2 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+/*header*/
+
+@media screen and  (max-width: 760px){
+  
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    section.atmosphere .iframe{ padding-right: 700px;} 
+    
+    /* Header */
+    
+    header a.lOGO { background-color: black; font-size: 4em; width: 145px; height: 60px; }
+	header .intro { font-size: 1.2em;}
+    header .loginIn { font-size: .7em; padding: 95px 30px 0px 0px;}
+	
+	header a.LOGO {font-size: 3em; height: 36px;}
+	
+    /* Section - Main */
+ section.main aside { width: 100%; float; none; text-align: left;}
+section.main aside .content { margin: 8px 20px 8px 0; padding: 5px 0px 10px 75px; background-size: 50px 50px; background-position: 20px 5px;}
+p{ font-size: .65em; padding: 0px 30px 0px 0px;}	
+
+	/*block3-1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left; }
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    section.BLOCK3_1 aside article .art2 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    
+    /* Section - Block4*/
+    
+    section.BLOCK4 aside div.content img {width: 85%;}
+    
+    
+    /* Navigation*/
+    nav {padding-top: 80px;}
+    nav > ul {padding-left: 10px;}
+}
+
+
+
+
+@media screen and (max-width: 625px){
+
+    h3 {margin-bottom: 0px; }
+    a.btn { font-size: .9em; }
+
+    /* Header */ 
+   
+
+    
+	header a.LOGO {font-size: 3em; height: 36px;}
+     
+
+
+    
+    /*Section-Main*/
+    section.main aside { width: 100%; float; none; text-align: left; }
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    p{ font-size: .55em; padding: 0px 30px 0px 0px;}
+	
+		
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    section.BLOCK3_1 aside article .art2 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+       /*Section-Athmosphere*/
+    
+   section.atmosphere .iframe{width: 550px;} 
+	
+	    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	/*Block3_1*/
+	 section.BLOCK3_1 aside article { width: 100%; float; none; text-align: left;}
+    
+    section.BLOCK3_1 aside article .art1 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    section.BLOCK3_1 aside article .art2 {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    /*Section-Block4*/
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    { padding: 20px 20px 20px 150px; }
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+    
+  
+
+    
+    
+    
+    
+    /*Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: deepskyblue;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0; }
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none;}
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+
+
+    
+@media screen and (max-width: 425px) {
+    
+    /*Header*/
+	header {height: 100px;}
+    
+	header a.LOGO {height: 36px;}
+  
+  
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+
+    /*Section-BLOCK4*/
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px}   
+    
+
+    
+    
+    /*Footer*/
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+  
+
+/*Section-Athmosphere*/
+section.atmosphere .iframe{width: 380px;} 
+
+
+
+
+@media screen and  (max-width: 760px){
+
+    h2 { font-size: 1.4em; }
+    h3 { font-size: 1.1em; }
+    a.btn {font-size: 1em; }
+    
+    
+    /* Header */
+    
+    header a.lOGO { width: 145px; height: 60px;}
+   
+    
+    /* Section - Main */
+
+        section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    /* Section - BLOCK4*/
+    
+    section.BLOCK4 aside div.content img { width: 85%;}
+    
+    
+    /* Navigation*/
+    nav { padding-top: 80px; }
+    nav > ul { padding-left: 10px;}
+}
+
+
+
+
+
+@media screen and  (max-width: 625px){
+  
+    h3 {margin-bottom: 0px;}
+    a.btn { font-size: .9em;}
+
+    /* Header */ 
+	header { height: 160px;}
+    header a.LOGO{
+        width: 70%; height: 66px;
+        left: 0px; top: 0px;
+        background-color: black;
+        background-size: 112px 46px;
+        background-position: 20px center;
+    }
+    
+  
+    
+    /* Section - Main */
+    section.main aside { width: 100%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+    
+    
+       /* Section - Athmosphere */
+    
+  section.atmosphere .iframe{width: 580px;} 
+    
+    
+	
+	    
+    /* Section - Main */
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 10px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+	
+	
+    /* Section - BLOCK4 */
+    
+    section.BLOCK4 aside { width: 100%; float: none; margin: 0; position: relative;}
+    
+    section.BLOCK4 aside div.content { padding: 20px 20px 20px 150px;}
+    
+    section.BLOCK4 aside div.content p { font-size: .9em;}
+    
+    section.BLOCK4 aside div.content img {
+        display: inline-block;
+        width: 125px;
+        position: absolute;
+        top: 30px; left: 0px;
+    }
+
+    
+    /* Navigation*/
+    
+    nav { position: static; width: auto; padding: 20px 15px; background-color: black;}
+    
+    nav ul,
+    nav ul ul,
+    nav ul ul ul { display: block; position: static;}
+    
+    nav > ul { padding:0;}
+    nav > ul >li { float: none; margin-top: 25px;}
+    
+    nav ul li:hover { background: none;}
+    
+    nav ul li a { 
+        width: auto;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid darkgray;
+    }
+    
+    nav ul li a:hover {background-color: lightgray;}
+    
+    nav ul ul { background: none; }
+    
+    nav ul ul ul li a { margin-left: 30px;}
+    nav ul ul ul li a { margin-left: 60px;}
+    
+    nav a[aria-haspopup="true"]::after { display: none;}
+    
+    /* Footer */
+    
+    footer div.content {display: block; margin-top: 15px;}
+    
+    footer div.content a {margin: 0 20px 0 0;}
+}
+    
+    
+
+
+@media screen and (max-width: 425px) {
+    
+    /* Header */
+	header {height:auto}
+
+
+     header a.lOGO { background-color: black; font-size: 4em; width: 70px; height: 70px;}
+   
+    
+    section.main aside { width: 30%; float; none; text-align: left;}
+    
+    section.main aside div.content {
+        margin: 8px 20px 8px 0;
+        padding: 5px 0px 50px 85px;
+        background-size: 50px 50px;
+        background-position: 20px 5px;
+        
+    }
+
+    /* Section - BLOCK4 */
+section.BLOCK4 aside div.content { padding: 140px 20px 20px 0px;}
+    
+section.BLOCK4 aside div.content img { width: auto; height: 100px; top: 30px;}   
+    
+
+    
+    
+    /* Footer */
+ 
+    footer::after { content:''; display: block; clear: both;}
+    
+    footer div.content a { 
+        display: inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
+    
+    
+    
+    
+}
+    
+
+
